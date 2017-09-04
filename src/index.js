@@ -1,3 +1,6 @@
+// @flow
+
+// $FlowFixMe - flow can't locate the electron module
 import { app, BrowserWindow } from 'electron';
 import { enableLiveReload } from 'electron-compile';
 

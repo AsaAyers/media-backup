@@ -47,7 +47,8 @@
         }
     },
     "dependencies": {
-        "electron-compile": "^6.4.1"
+        "electron-compile": "^6.4.1",
+        "flow-bin": "^0.54.0"
     },
     "devDependencies": {
         "babel-plugin-transform-async-to-generator": "^6.24.1",

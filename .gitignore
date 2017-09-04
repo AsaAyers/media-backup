@@ -2,3 +2,4 @@ node_modules
 out
 elm-stuff/*
 !elm-stuff/exact-dependencies.json
+flow-typed/npm/*vx.x.x.js

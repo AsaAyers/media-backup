@@ -1,8 +1,12 @@
+// @flow
+/* eslint-env browser */
+
+// $FlowFixMe - I don't know how to declare elm modules
 const Elm = require('./Main.elm');
 
 const container = document.getElementById('app');
 const model = localStorage.getItem('model');
-const startingModel = model ? JSON.parse(model) : null;
+const startingModel = model != null ? JSON.parse(model) : null;
 
 function boot() {
   try {

@@ -1,0 +1,16 @@
+[ignore]
+.*/node_modules/editions/.*
+.*/node_modules/electron-packager/.*
+.*/node_modules/graphql/.*
+.*/node_modules/graphql-tag/.*
+.*/node_modules/typechecker/.*
+
+[include]
+
+[libs]
+
+[lints]
+all=warn
+
+[options]
+include_warnings=true
