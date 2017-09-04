@@ -1,2 +1,4 @@
 node_modules
 out
+elm-stuff/*
+!elm-stuff/exact-dependencies.json
